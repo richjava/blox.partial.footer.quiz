@@ -1,0 +1,10 @@
+.footer-section {
+  @extend .position-relative;
+
+  &::before {
+    @extend .brand-curve;
+
+    top: -5px;
+    transform: scale(-1, 1);
+  }
+}
